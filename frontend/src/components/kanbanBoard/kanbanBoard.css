@@ -1,0 +1,76 @@
+.board-site-wrapper {
+    margin: 0 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.board-site-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.board-site-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.create-ticket-btn {
+    align-self: flex-end;
+    cursor: pointer;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #f4f4f5;
+    color: #18181b;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    border: 1px solid #e4e4e7
+}
+
+.board-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.board-backlog-column, .board-doing-column {
+    border-right: 2px solid black;
+}
+
+.board-column-title {
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.doing, .done {
+    padding-left: 0.5rem;
+}
+
+.ticket-wrapper {
+    background-color: #ededed;
+    box-sizing: border-box;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.ticket-title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-wrap: nowrap;
+    padding-bottom: 1.5rem;
+}
+
+.ticket-badge-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ticket-priority {
+    margin-left: auto;
+}

@@ -1,0 +1,31 @@
+.ticket-priority-badge {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+}
+
+.priority-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(2px);
+}
+
+.priority-icon-wrapper > svg:nth-child(2) {
+    margin-top: -0.8rem;
+}
+
+.priority-icon-high {
+    color: red;
+    font-size: 1.1rem;
+}
+
+.priority-icon-medium {
+    color: #ffb732;
+    font-size: 1.1rem;
+}
+
+.priority-icon-low {
+    color: blue;
+    font-size: 1.1rem;
+}
