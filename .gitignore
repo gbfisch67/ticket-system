@@ -4,8 +4,7 @@ dist/
 dist-ssr/
 *.local
 
-# Vite / Vercel
-.vercel
+# Vite
 .eslintcache
 
 # Logs
@@ -26,7 +25,6 @@ venv/
 ENV/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
